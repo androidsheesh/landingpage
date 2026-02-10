@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULLSCREEN HERO */
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/pictures/pinkbeach.jpg");
+  background-size: cover;       /* 🔥 key line */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
+/* NAV */
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-text a,
+.logo {
+  color: white;
+  text-decoration: none;
+  margin-left: 117px;
+  font-weight: 500;
+}
+
+/* HERO TEXT */
+.hero-text {
+  position: absolute;
+  bottom: 20%;
+  left: 10vw;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 4.5rem;
+  margin: 10px 0;
+}
+.hero-text p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+
+.primary {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
