@@ -16,11 +16,11 @@
   position: relative;
   color: white;
 }
-
+/*new*/
 /* NAV */
 .nav {
   position: absolute;
-  top: 20px;
+  top: 50px;
   left: 40px;
   right: 40px;
   display: flex;
@@ -33,7 +33,11 @@
   color: white;
   text-decoration: none;
   margin-left: 117px;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.nav-text a {
+  margin-right: 60px;
 }
 
 /* HERO TEXT */
