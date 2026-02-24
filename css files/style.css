@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+:root{
+    --oceanblue: #146994;
+    --white: #ffffff;
+}
+p{
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.hero{
+  height:100vh;
+  background:url('../pictures/beautiful-beach-view-koh-chang-island-seascape-trad-province-eastern-thailand-blue-sky-background.jpg') center/cover no-repeat;
+  position:relative;
+}
+.btn{
+    width: 15px;
+    padding: 15px 15px;
+    background-color: var(--oceanblue);
+    color: var(--white);   
+}
+
+header{
+    padding: 15px 15px;
+    background-color: var(--oceanblue);
+    justify-content: center;
+    text-align: left;
+}
+nav a{
+    gap: 20px;
+}
+.overlay{
+  position:absolute;
+  top:0;
+  right:0;
+  width:55%;
+  height:100%;
+  background:white;
+
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  padding:150px;
+
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;  
+  text-align:center;
+}
+.content{
+  max-width: 500px;
+  transform: translateX(60px);
+  margin-top: 40px;
+}
+.content h1{
+  color: var(--oceanblue);
+  font-size:40px;
+  font-weight: 100px;
+  margin-bottom:30px;
+}
+
+.content p{
+  text-align: justify;
+}
